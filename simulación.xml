@@ -1,0 +1,76 @@
+<graph version="v4.05" name="Purple" author="" interval="1" timeMode="asynchronous" distributionMode="fixed speed" speed="100" actions="1" dice="D6" skill="" strategy="" multiplayer="" width="600" height="560" numberOfRuns="100" visibleRuns="25" colorCoding="0">
+  <connection type="State Connection" start="55" end="2" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="31" end="31" label="" position="0.5" color="Blue" thickness="2"/>
+  <node symbol="Chart" x="339" y="427" color="Black" caption="" width="247.87710571289065" height="108.35504150390624" captionPos="5" scaleX="0" scaleY="0"/>
+  <connection type="Resource Connection" start="16" end="19" label="+400" position="0.5" color="Orange" thickness="2"/>
+  <connection type="Resource Connection" start="18" end="19" label="+250" position="0.5" color="Yellow" thickness="2"/>
+  <connection type="State Connection" start="11" end="2" label="" position="0.5" color="Yellow" thickness="2"/>
+  <connection type="State Connection" start="35" end="2" label="" position="0.5" color="Red" thickness="2"/>
+  <node symbol="Pool" x="22" y="145" color="Orange" caption="gana" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="31" end="16" label="+1" position="0.5" color="Orange" thickness="2"/>
+  <connection type="Resource Connection" start="16" end="7" label="+1" position="0.5" color="Orange" thickness="2"/>
+  <connection type="State Connection" start="7" end="2" label="" position="0.5" color="Orange" thickness="2"/>
+  <node symbol="Pool" x="103" y="100" color="Yellow" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="32" end="18" label="+1" position="0.5" color="Yellow" thickness="2"/>
+  <connection type="Resource Connection" start="18" end="11" label="+1" position="0.5" color="Yellow" thickness="2"/>
+  <connection type="Resource Connection" start="33" end="17" label="+1" position="0.5" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="34" end="29" label="+1" position="0.5" color="Blue" thickness="2"/>
+  <node symbol="Converter" x="80" y="239" color="Orange" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="273" y="141" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="130" y="197" color="Yellow" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Pool" x="192" y="276" color="Green" caption="Points" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="200" capacity="-1"/>
+  <connection type="State Connection" start="36" end="19" label="-300" position="0.5" color="Blue" thickness="2"/>
+  <connection type="Resource Connection" start="29" end="36" label="" position="0.5" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="36" end="2" label="" position="0.5" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="35" end="19" label="-200" position="0.5" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="17" end="35" label="" position="0.5" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="30" end="33" label="25%" position="0.5" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="30" end="34" label="25%" position="0.5" color="Blue" thickness="2"/>
+  <connection type="Resource Connection" start="30" end="32" label="25%" position="0.5" color="Yellow" thickness="2"/>
+  <connection type="Resource Connection" start="30" end="31" label="25%" position="0.5" color="Orange" thickness="2"/>
+  <node symbol="Converter" x="383" y="129" color="Blue" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Source" x="243" y="27" color="Blue" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <node symbol="Gate" x="51" y="59" color="Orange" caption="ganar" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Gate" x="187" y="83" color="Yellow" caption="equipo gano" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Gate" x="289" y="76" color="Red" caption="perder" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Gate" x="431" y="57" color="Blue" caption="1 morir" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Pool" x="211" y="168" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="317" y="178" color="Blue" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="43" end="44" label="" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="44" end="42" label="" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="19" end="43" label="50%" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="19" end="57" label="40%" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="19" end="48" label="10%" position="0.5" color="Purple" thickness="2"/>
+  <node symbol="Pool" x="295" y="413" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Gate" x="339" y="289" color="Purple" caption="habilidades" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Converter" x="338" y="366" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <connection type="State Connection" start="42" end="19" label="-500" position="0.5" color="Purple" thickness="2">
+    <point x="253" y="337"/>
+    <point x="252" y="332"/>
+  </connection>
+  <connection type="State Connection" start="56" end="19" label="-300" position="0.5" color="Purple" thickness="2">
+    <point x="185" y="425"/>
+  </connection>
+  <connection type="State Connection" start="49" end="19" label="-1500" position="0.5" color="Purple" thickness="2">
+    <point x="64" y="298"/>
+  </connection>
+  <node symbol="Gate" x="80" y="360" color="Purple" caption="Personajes" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Pool" x="21" y="416" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Converter" x="59" y="463" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <connection type="Resource Connection" start="48" end="50" label="" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="50" end="49" label="" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="57" end="58" label="" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="58" end="56" label="" position="0.5" color="Purple" thickness="2"/>
+  <node symbol="Pool" x="213" y="519" color="Black" caption="Level" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="1" capacity="-1" displayCapacity="0"/>
+  <node symbol="Pool" x="190" y="451" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Gate" x="150" y="376" color="Purple" caption="Trampas" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" gateType="deterministic"/>
+  <node symbol="Converter" x="131" y="451" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <connection type="Resource Connection" start="55" end="60" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="EndCondition" x="280" y="529" color="Black" caption="Game Over" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1"/>
+  <node symbol="ArtificialPlayer" x="390" y="229" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="0" actionsPerTurn="1">if(Points &gt; 300) fireRandom(Personajes, Trampas, habilidades)if(Level &gt; 1000) fire(Game Over)</node>
+  <connection type="State Connection" start="42" end="55" label="+10" position="0.5" color="Purple" thickness="2"/>
+  <connection type="State Connection" start="49" end="55" label="+50" position="0.5" color="Purple" thickness="2">
+    <point x="21" y="517"/>
+  </connection>
+  <connection type="State Connection" start="56" end="55" label="+15" position="0.5" color="Purple" thickness="2"/>
+</graph>
