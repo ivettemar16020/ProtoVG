@@ -118,6 +118,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Prototipo.csproj">
@@ -160,6 +163,8 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\Editor\ButterflyInspector.cs" />
+    <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\Editor\MaxAtlasSize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Baker House\Readme.txt" />
@@ -207,6 +212,14 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Shaders\LightmapOnlyShader.shader" />
+    <None Include="Assets\Toon_Level_Kit\Documentation\Readme.txt" />
+    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Materials\GlassTypeA.shader" />
+    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Glass.shader" />
+    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Leave.shader" />
+    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Rim.shader" />
+    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation-Lightmap.shader" />
+    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation.shader" />
     <None Include="Assets\read me.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
