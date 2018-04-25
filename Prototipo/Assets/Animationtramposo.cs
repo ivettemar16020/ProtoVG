@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +13,7 @@ public class Animationtramposo : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
 			anim.SetBool("activate",true);
+			Score.instance.VidasCount();
 		}
 		if (other.tag != "Player"){
 			anim.SetBool("activate", false);
@@ -23,7 +24,7 @@ public class Animationtramposo : MonoBehaviour {
 			anim.SetBool("activate",false);
 		}
 		if (other.tag != "Player"){
-			anim.SetBool("activate", true);
+			anim.SetBool("activate", true		);
 		}
 	}
 	

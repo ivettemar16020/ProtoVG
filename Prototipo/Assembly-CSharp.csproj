@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Animationtramposo.cs" />
      <Compile Include="Assets\CameraFollow.cs" />
+     <Compile Include="Assets\KeyScript.cs" />
      <Compile Include="Assets\OldRadio\Okean\CamRotat.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -95,6 +96,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\Record_player\Scripts\RecordPlayer.cs" />
+     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
@@ -116,7 +118,6 @@
      <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\Butterfly.cs" />
      <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\FpsCounter.cs" />
      <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\HTLiquidSpriteSheet.cs" />
-     <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\HTSpriteSheet.cs" />
      <Compile Include="Assets\WonLost\Menu.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation.shader" />
