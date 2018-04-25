@@ -1,18 +1,53 @@
-﻿using UnityEngine;
+﻿﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
 
-	public Transform target;
+    [SerializeField]
+    private Transform target;
 
-	public float smoothSpeed = 0.125f;
+    [SerializeField]
+    private Vector3 offsetPosition;
 
-	public Vector3 offset; 
-	
-	void FixedUpdate(){
-		Vector3 desiredPosition = target.position + offset; 
-		Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed*Time.deltaTime);
-		transform.position = desiredPosition; 
+    [SerializeField]
+    private Space offsetPositionSpace = Space.Self;
 
-		transform.LookAt(target);
-	} 
+    [SerializeField]
+    private bool lookAt = true;
+
+    private void LateUpdate()
+    {
+        Refresh();
+    }
+
+    public void Refresh()
+    {
+        if (target == null)
+        {
+            Debug.LogWarning("Missing target ref !", this);
+
+            return;
+        }
+
+        // compute position
+        if (offsetPositionSpace == Space.Self)
+        {
+            transform.position = target.TransformPoint(offsetPosition);
+        }
+        else
+        {
+            transform.position = target.position + offsetPosition;
+        }
+
+        // compute rotation
+        if (lookAt)
+        {
+            transform.LookAt(target);
+        }
+        else
+        {
+            transform.rotation = target.rotation;
+        }
+    }
 }
