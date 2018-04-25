@@ -11,8 +11,20 @@ public class Animationtramposo : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Player")
+		if (other.tag == "Player"){
 			anim.SetBool("activate",true);
+		}
+		if (other.tag != "Player"){
+			anim.SetBool("activate", false);
+		}
+	}
+	void OnTriggerExit(Collider other){
+		if (other.tag == "Player"){
+			anim.SetBool("activate",false);
+		}
+		if (other.tag != "Player"){
+			anim.SetBool("activate", true);
+		}
 	}
 	
 	// Update is called once per frame

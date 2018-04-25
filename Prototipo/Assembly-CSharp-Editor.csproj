@@ -138,7 +138,7 @@
      <None Include="Assets\read me.txt" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Samantha Duarte/Pictures/ProtoVG-master/Prototipo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Samantha Duarte/Documents/Estesi/ProtoVG/Prototipo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
