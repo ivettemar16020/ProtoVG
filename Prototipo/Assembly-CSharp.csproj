@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Animaciones\AnimacionConejo.cs" />
-     <Compile Include="Assets\Animationtramposo.cs" />
+     <Compile Include="Assets\Animaciones\Animationtramposo.cs" />
      <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\KeyScript.cs" />
      <Compile Include="Assets\OldRadio\Okean\CamRotat.cs" />

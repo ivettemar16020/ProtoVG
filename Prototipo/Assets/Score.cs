@@ -9,6 +9,7 @@ public class Score : MonoBehaviour {
 
 	public static Score instance;
 	public Text txtVidas; // txt de las vidas
+	public Text txtTiempo; 
 	public static int vidas = 10; //vidas
 
 	// Use this for initialization

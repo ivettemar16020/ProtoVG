@@ -200,7 +200,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -224,7 +224,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!1001 &4858099
 Prefab:
   m_ObjectHideFlags: 0
@@ -4349,7 +4349,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -4373,7 +4373,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!1001 &84344433
 Prefab:
   m_ObjectHideFlags: 0
@@ -4746,6 +4746,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -9294,7 +9298,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c51445b5f68f52c4581f2ea53d6f5582, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.679
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14771,6 +14775,10 @@ Prefab:
       propertyPath: m_Name
       value: trampaOsoU (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
   m_IsPrefabParent: 0
@@ -17638,6 +17646,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -20745,6 +20757,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -60
       objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
   m_IsPrefabParent: 0
@@ -20831,7 +20847,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -20855,7 +20871,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!1 &583620676
 GameObject:
   m_ObjectHideFlags: 0
@@ -23500,6 +23516,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -27643,6 +27663,10 @@ Prefab:
       propertyPath: m_Name
       value: trampaOsoU (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
   m_IsPrefabParent: 0
@@ -30373,7 +30397,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -30397,7 +30421,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &917312074 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5d1e11a1488b940c7821bd352c416405, type: 2}
@@ -36911,7 +36935,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -36935,7 +36959,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!1001 &1119288731
 Prefab:
   m_ObjectHideFlags: 0
@@ -42610,7 +42634,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -42634,7 +42658,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!1001 &1280632547
 Prefab:
   m_ObjectHideFlags: 0
@@ -42767,6 +42791,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -44069,6 +44097,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -46468,90 +46500,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ecf7d6e32d090459987d6e255bf222df, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1470048471
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1470048472}
-  - component: {fileID: 1470048475}
-  - component: {fileID: 1470048474}
-  - component: {fileID: 1470048473}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1470048472
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1470048471}
-  m_LocalRotation: {x: 0.0947725, y: -0, z: -0, w: 0.995499}
-  m_LocalPosition: {x: 0, y: 2.46, z: 1.2}
-  m_LocalScale: {x: 2.5, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2047738297}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 10.876, y: 0, z: 0}
---- !u!23 &1470048473
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1470048471}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 9be3cb9fe2a577644967760316ef5273, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1470048474
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1470048471}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1470048475
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1470048471}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1471972557
 Prefab:
   m_ObjectHideFlags: 0
@@ -46610,6 +46558,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -49897,7 +49849,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.151
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_LocalPosition.z
@@ -49909,7 +49861,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0.42261827
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_LocalRotation.z
@@ -49917,7 +49869,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.9063079
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_RootOrder
@@ -49969,7 +49921,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea2ef45ac15c1b144b65b667ca6f7376, type: 3}
@@ -50641,6 +50597,10 @@ Prefab:
     - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
       propertyPath: m_Name
       value: trampaOsoU (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
@@ -51694,6 +51654,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e7dd349fa1c848943ace52c3ebea2cd5, type: 2}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
   m_IsPrefabParent: 0
@@ -54391,6 +54355,10 @@ Prefab:
       propertyPath: m_Name
       value: trampaOsoU (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
   m_IsPrefabParent: 0
@@ -55582,7 +55550,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -55606,7 +55574,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &1685400442 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ed3fe96ad2b5ff34a890e187342f62fe, type: 3}
@@ -56850,6 +56818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 1293908533}
+  conejo: {fileID: 2047738290}
 --- !u!114 &1737812638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56939,6 +56908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txtVidas: {fileID: 1775645057}
+  txtTiempo: {fileID: 1293908533}
 --- !u!1001 &1737945594
 Prefab:
   m_ObjectHideFlags: 0
@@ -62179,6 +62149,10 @@ Prefab:
       propertyPath: m_Name
       value: trampaOsoU (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
+      propertyPath: m_TagString
+      value: Trampa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cad4b922c24a44940893bc6cd1e43bc5, type: 3}
   m_IsPrefabParent: 0
@@ -62265,7 +62239,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -62289,7 +62263,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &1867514187 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 0bb3311cf64f94fe3a4361d298e56a85, type: 2}
@@ -66010,7 +65984,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -66034,7 +66008,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!1001 &2001358033
 Prefab:
   m_ObjectHideFlags: 0
@@ -67863,9 +67837,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 2.0382264
-  m_Height: 11.013475
+  m_Height: 7.1137595
   m_Direction: 1
-  m_Center: {x: -0.104827866, y: 0.5744618, z: -0.22279589}
+  m_Center: {x: -0.10482788, y: 2.52432, z: -0.22279589}
 --- !u!143 &2047738292
 CharacterController:
   m_ObjectHideFlags: 0
@@ -67909,7 +67883,7 @@ MonoBehaviour:
   speed: 6
   jumpSpeed: 8
   gravity: 20
-  rotateSpeed: 3
+  rotateSpeed: 5
 --- !u!23 &2047738295
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70379,6 +70353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2047738297}
-  offsetPosition: {x: -0.16, y: 4.13, z: 7.74}
+  offsetPosition: {x: -12.88, y: 10, z: 11.59}
   offsetPositionSpace: 1
   lookAt: 1

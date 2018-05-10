@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,12 +9,23 @@ public class AnimacionConejo : MonoBehaviour {
 		anim = GetComponent <Animator>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		anim.CrossFade("quieto", 0.1f);
+		//anim.CrossFade("quieto", 0.1f);
 		
-		while (Input.GetKeyDown(KeyCode.B)){
+		if (Input.GetKeyDown(KeyCode.DownArrow)){
 			anim.CrossFade("caminar", 0.1f);
 		}
+		if(Input.GetKey(KeyCode.DownArrow)){
+			anim.SetBool("isWalking", true);
+			anim.SetBool("isQuieto", false);
+		}
+		else{
+			anim.SetBool("isWalking", false);
+			anim.SetBool("isQuieto", true);
+		}
+
+		//if (Input.GetKeyDown(KeyCode.UpArrow)){
+		//	anim.CrossFade("caminar", 0.1f);
+		//}
 	}
 }
