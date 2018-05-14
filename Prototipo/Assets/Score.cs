@@ -15,7 +15,7 @@ public class Score : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		instance = this;
- 		txtVidas.text = "Vidas: "+ Score.vidas; //cambia el texto de las vidas
+ 		txtVidas.text = "Lives: "+ Score.vidas; //cambia el texto de las vidas
 	}
 
 
@@ -23,7 +23,7 @@ public class Score : MonoBehaviour {
 	public void VidasCount()
 	{
 		vidas = vidas - 1;
-		txtVidas.text = "Vidas: " + Score.vidas; //cambia el texto del player 2
+		txtVidas.text = "Lives: " + Score.vidas; //cambia el texto del player 2
 		if (vidas == 0) {
 			SceneManager.LoadScene(1);
 			Score.vidas = 3; // reinicia las vidas

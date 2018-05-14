@@ -12,10 +12,10 @@ public class AnimacionConejo : MonoBehaviour {
 	void Update () {
 		//anim.CrossFade("quieto", 0.1f);
 		
-		if (Input.GetKeyDown(KeyCode.DownArrow)){
+		if (Input.GetKeyDown(KeyCode.UpArrow)){
 			anim.CrossFade("caminar", 0.1f);
 		}
-		if(Input.GetKey(KeyCode.DownArrow)){
+		if(Input.GetKey(KeyCode.UpArrow)){
 			anim.SetBool("isWalking", true);
 			anim.SetBool("isQuieto", false);
 		}
