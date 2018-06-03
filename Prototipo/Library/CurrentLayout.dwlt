@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 16609
+  controlID: 5505
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 16610
+  controlID: 5506
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 16611
+  controlID: 5179
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 16612
+  controlID: 5180
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,10 +392,10 @@ MonoBehaviour:
     height: 367
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 3970}
-    m_SelectedIDs: 763ef4ff
-    m_LastClickedID: -770442
-    m_ExpandedIDs: 9efbffff000000003036000048370000
+    scrollPos: {x: 0, y: 146}
+    m_SelectedIDs: a63f00001a360000283f0000ba380000303f0000d6350000783b0000c23f0000763a00004a3c0000ca360000363e0000c239000072370000ce3c00006c3600000e370000
+    m_LastClickedID: 14094
+    m_ExpandedIDs: b6a8ffff9efbffff000000009c360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,14 +446,14 @@ MonoBehaviour:
     height: 367
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2678.0892209209087
+  lastFramingTime: 705.4500757773972
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18.21875, y: 21.427734, z: -5.2382812}
+    m_Target: {x: -3.491211, y: 5.5422363, z: -5.2943115}
     speed: 2
-    m_Value: {x: 18.21875, y: 21.427734, z: -5.2382812}
+    m_Value: {x: -3.491211, y: 5.5422363, z: -5.2943115}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -469,21 +469,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0029091781, y: -0.5852782, z: -0.002117541, w: -0.810831}
+    m_Target: {x: 0.25465778, y: 0.53956693, z: -0.1754542, w: 0.7830929}
     speed: 2
-    m_Value: {x: 0.0029091628, y: -0.5852751, z: -0.0021175297, w: -0.8108268}
+    m_Value: {x: 0.25465778, y: 0.53956693, z: -0.17545421, w: 0.783093}
   m_Size:
-    m_Target: 54.329426
+    m_Target: 1.9185122
     speed: 2
-    m_Value: 54.329426
+    m_Value: 1.9185122
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -561,19 +561,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Icons
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Icons
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ivett\Desktop\UVG\V Semestre\Videojuegos\ProtoVG\Prototipo
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 75}
-    m_SelectedIDs: e2310000
-    m_LastClickedID: 12770
-    m_ExpandedIDs: 00000000502b0000602e0000e62f0000363500009c3a00009e3a0000a03a0000a23a0000a43a0000a63a0000a83a0000aa3a0000ac3a0000ae3a0000b03a0000b23a0000b43a0000b63a0000b83a0000ba3a000000ca9a3bffffff7f
+    m_SelectedIDs: 502b0000
+    m_LastClickedID: 11088
+    m_ExpandedIDs: 00000000502b0000602e0000e62f0000363500009442000096420000984200009a4200009c4200009e420000a0420000a2420000a4420000a6420000a8420000aa420000ac420000ae420000b0420000b242000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,7 +601,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000502b0000602e0000e62f0000363500009c3a00009e3a0000a03a0000a23a0000a43a0000a63a0000a83a0000aa3a0000ac3a0000ae3a0000b03a0000b23a0000b43a0000b63a0000b83a0000ba3a000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000502b0000602e0000e62f0000363500009442000096420000984200009a4200009c4200009e420000a0420000a2420000a4420000a6420000a8420000aa420000ac420000ae420000b0420000b242000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
