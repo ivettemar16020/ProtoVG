@@ -347,23 +347,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TimerScript2.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\CarCamera.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\Character Controllers\Sources\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\Fog.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\Kart.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\LevelJump.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\RotateObject.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\Examples\Script\Spawner.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\BillboardLaub.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\Butterfly.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\FpsCounter.cs" />
-    <Compile Include="Assets\Toon_Level_Kit\TLK-Medias\Scripts\HTLiquidSpriteSheet.cs" />
     <Compile Include="Assets\WonLost\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Baker House\Readme.txt" />
     <None Include="Assets\FREE Food Pack\Shaders\Food.shader" />
-    <None Include="Assets\FantasyEnvironments\Environments\README.txt" />
     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
     <None Include="Assets\Models\Key\readME keys.txt" />
     <None Include="Assets\OldRadio\Okean\ReadMe.txt" />
@@ -429,13 +417,6 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Toon_Level_Kit\Documentation\Readme.txt" />
-    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Materials\GlassTypeA.shader" />
-    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Glass.shader" />
-    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Leave.shader" />
-    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Rim.shader" />
-    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation-Lightmap.shader" />
-    <None Include="Assets\Toon_Level_Kit\TLK-Medias\Shaders\Vegetation.shader" />
     <None Include="Assets\read me.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
